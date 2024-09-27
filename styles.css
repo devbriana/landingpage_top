@@ -6,6 +6,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -40,18 +42,13 @@ a {
     gap: 16px;
 }
 
-li {
-    display: flex;
-    justify-content: space-between;
-}
-
 .container.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.herotext {
+.container > .herotext {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -93,6 +90,7 @@ li {
     align-items: center;
     justify-content: center;
     padding-bottom: 80px;
+    height: 400px;
 }
 
 .container.one > .boxes {
@@ -101,7 +99,7 @@ li {
     justify-content: center;
     height: 100px;
     width: 100px;
-    gap: 20px;
+    gap: 40px;
     margin-top: 50px;
 }
 
@@ -125,14 +123,15 @@ li {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    padding: 20px 140px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-family: 'Roboto';
 }
 
 .quote > .text {
     font-size: 36px; 
-    color: #1F2937;
     font-style: italic;
-    font-weight: lighter;
-    font-family: 'Roboto';
 }
 
 .quote > .author {
@@ -140,12 +139,19 @@ li {
     padding-right: 40px;
     padding-top: 25px;
     font-size: 28px; 
-    color: #1F2937;
-    font-weight: lighter;
-    font-family: 'Roboto';
+}
+
+.container.one, .container.two {
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 /* third container of body (inquire) */
+.container.three {
+    height: 300px;
+    align-items: center;
+}
+
 .inquire {
     background-color: #3882F6;
     display: flex;
