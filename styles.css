@@ -22,16 +22,16 @@ ul {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #d6a5c5;;
     font-size: 18px;
 }
 
 .navbar, .header {
-    background-color: #1F2937;
+    background-color: #283a30;
 }
 
 .logo {
-    color: #F9FAF8;
+    color: #d6a5c5;
     font-size: 24px;
     font-weight: bold;
 }
@@ -64,19 +64,20 @@ a {
 
 .herotext > h1 {
     font-size: 48px;
-    color: #F9FAF8;
+    color: #ecebe8;
     font-weight: 900;
     padding: 10px;
 }
 
 .herotext > p {
-    color: #E5E7EB;
+    color: #ecebe8;
     font-size: 18px;
-    padding-bottom: 10px;
+    padding: 20px 0;
 }
 
 .button {
-    background-color: #3882F6;
+    /*background-color: #90bd90;*/
+    background-color: #d6a5c5;
     border-radius: 5px;
     padding: 10px 15px;
     text-align: center;
@@ -89,8 +90,12 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 80px;
+    padding-bottom: 180px;
     height: 400px;
+    background-color: #ecebe8;
+    padding-top: 150px;
+    padding-bottom: 350px;
+    color: #1F2937;
 }
 
 .container.one > .boxes {
@@ -110,13 +115,18 @@ a {
     text-align: center;
 }
 
+img {
+    border: solid 5px #d6a5c5;
+    border-radius: 5px;
+}
+
 .box > p {
     color: #1F2937;
 }
 
 /* second container of body (with quote) */
 .container.two {
-    background-color: #E5E7EB;
+    background-color: #edd9e6;;
     padding: 100px;
 }
 .quote {
@@ -142,45 +152,52 @@ a {
 }
 
 .container.one, .container.two {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 /* third container of body (inquire) */
 .container.three {
     height: 300px;
     align-items: center;
+    background-color: #ecebe8;
 }
 
 .inquire {
-    background-color: #3882F6;
+    /*background-color: #739374;*/
+    background-color: #283a30;
     display: flex;
     width: 100%;
     height: 100px;
     align-items: center;
     justify-content: space-around;
-    color: #F9FAF8;
+    color: #E5E7EB;
     border-radius: 5px;
+    border: solid 5px #d6a5c5
 }
 
 .inqtxt > p {
     padding-bottom: 2px;
+    color: #E5E7EB;
 }
 
 .inquirebtn {
-    border: 2px solid #F9FAF8;
+    border: 2px solid #E5E7EB;
     border-radius: 5px;
     padding: 8px 30px;
 }
 
 /* Fourth Container (footer) */
 .container.footer {
-    background-color: #1F2937;
+    background-color: #283a30;
     color: #E5E7EB;
     font-size: 12px;
     display: flex;
     justify-content: center;
 }
 
+a:hover {
+    cursor: pointer;
+}
 
 
